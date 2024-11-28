@@ -5,14 +5,13 @@ body {
 }
 
 header {
-  background-color: #666;
+  background-color: rgb(12, 12, 12);
   width: 100%;
   height: 7vh;
   display: flex;
   justify-content: space-between;
 }
 .top-bar {
-  background-color: rgb(12, 12, 12);
   width: 100%;
   height: 3vw;
   margin: auto;
@@ -42,8 +41,7 @@ header {
   text-decoration: none;
   color: aliceblue;
 }
-.icons i:hover{
-
+.icons i:hover {
   background-color: #71a12e;
   width: 20px;
   height: 20px;
@@ -74,7 +72,7 @@ header {
   border-radius: 5px;
   color: #fff;
 }
-.call-now button:hover{
+.call-now button:hover {
   color: #71a12e;
   background-color: #777;
   transform: scale(1.1);
@@ -198,8 +196,7 @@ nav a:hover {
   position: relative;
   left: 350px;
 }
-.hero button:hover{
- 
+.hero button:hover {
   color: #71a12e;
   background-color: #777;
   transform: scale(1.1);
@@ -217,7 +214,6 @@ nav a:hover {
   border-radius: 50%;
   display: inline-block;
 }
-
 
 /* ////advantage */
 .advantage {
@@ -365,30 +361,32 @@ nav a:hover {
 }
 
 .service h1 {
+  font-size: 3rem;
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
+  margin-top: 0px;
 }
 .service span {
   color: #71a12e;
 }
 .service .para {
-  width: 800px;
+  width: 40vw;
   text-align: center;
   justify-content: center;
   align-items: center;
   padding: 15px;
   margin: 5px;
   position: relative;
-  left: 550px;
+  left: 600px;
 }
 .services-container {
   display: flex;
-  width: 70%;
+  width: 60%;
   height: auto;
   justify-content: space-between;
   position: relative;
-  left: 300px;
+  left: 400px;
   top: 50px;
 }
 .service-card {
@@ -493,7 +491,7 @@ nav a:hover {
 .portfolio-images {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  margin: 10px;
+  margin-top: 10px;
   width: 80%;
   justify-content: center;
   text-align: center;
@@ -808,7 +806,7 @@ nav a:hover {
   cursor: pointer;
   margin-left: 20px;
 }
-.contact-form button:hover{
+.contact-form button:hover {
   background-color: #666;
   color: #71a12e;
   transition: 2s;
@@ -816,7 +814,6 @@ nav a:hover {
 }
 /* our contact */
 .contact-section {
-  margin-top: 40px;
   width: 80%;
   height: 60vh;
   padding: 20px;
@@ -860,8 +857,7 @@ nav a:hover {
 
 .map {
   position: relative;
-  margin-top: 20px;
-  border-top: 8px solid transparent;
+  margin-top: 10px;
   overflow: hidden;
 }
 
@@ -950,21 +946,34 @@ nav a:hover {
     box-sizing: border-box;
   }
   header {
-    width: 100vw;
+    width: 78vw;
+  }
+  .top-bar {
+    width: 65vw;
+  }
+  .icons {
+    padding: 0px;
+    margin: 2px;
+    width: 20vw;
+  }
+  .icons i {
+    padding-right: 5px;
+    font-size: small;
   }
 
   .contact-info {
-    width: auto;
+    width: 25vw;
+    margin-right: 60px;
   }
-
-  .call-now button {
-    position: relative;
-    left: 80px;
-    top: 5px;
+  .call-now {
+    margin-left: 40px;
+    padding: 4px;
+    width: 9vw;
   }
   .call-now button {
     width: 80px;
   }
+
   .hideonmobile {
     display: flex;
   }
@@ -973,41 +982,41 @@ nav a:hover {
   }
 
   nav {
-    width: 100vw;
+    width: 78vw;
   }
   nav ul {
-    width: 60vw;
-
-    display: flex;
+    width: 55vw;
+    position: absolute;
+    left: 170px;
   }
 
   nav a {
-    font-size: 16px;
+    font-size: 14px;
 
-    padding: 10px;
+    padding: 4px;
   }
   .hero-main {
-    width: 100vw;
+    width: 78vw;
   }
 
   .hero button {
     position: relative;
-    left: 140px;
+    left: 90px;
   }
   .advantage {
-    width: 100vw;
+    width: 78vw;
   }
 
   .icons-container {
-   margin: 2px;
-    margin-left: 60px;
+    margin: 2px;
+    margin-left: 70px;
     padding: 12px;
-    width: 90vw;
+    width: 65vw;
     height: auto;
   }
 
   .about-container {
-    width: 100vw;
+    width: 78vw;
     height: auto;
     padding: 0 10px;
   }
@@ -1022,7 +1031,7 @@ nav a:hover {
   }
 
   .about-para {
-    width: 40vw;
+    width: 30vw;
     font-size: 14px;
 
     margin-top: 10px;
@@ -1040,9 +1049,9 @@ nav a:hover {
     margin-bottom: 20px;
   }
   .service {
-    width: 100vw;
+    width: 78vw;
     padding: 0 10px;
-    height: 50vh;
+    height: 60vh;
     align-items: center;
   }
 
@@ -1053,27 +1062,27 @@ nav a:hover {
   }
 
   .service .para {
-    width: 600px;
+    width: 500px;
 
     left: 0px;
   }
   .services-container {
-    align-items: center;
-    gap: 10px;
-    width: 80vw;
+    gap: 4px;
+    width: 70vw;
     height: auto;
     position: relative;
-    left: 10px;
+    left: 5px;
+    top: 20px;
   }
   .service-card {
     align-items: center;
   }
   .service-card i {
     padding: 2px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .service-card .circle {
-    left: 60px;
+    left: 80px;
   }
   .service-title {
     font-size: 1em;
@@ -1083,12 +1092,12 @@ nav a:hover {
   }
 
   .portfolio {
-    width: 100vw;
+    width: 78vw;
     padding: 0 10px;
     height: auto;
   }
   .portfolio-head {
-    width: 60%;
+    width: 60vw;
   }
   .portfolio-head h1 {
     font-size: 22px;
@@ -1098,41 +1107,40 @@ nav a:hover {
     font-size: 14px;
   }
   .portfolio-head ul {
-  
     width: 50vw;
-    left: 50px;
+    left: 40px;
   }
   .portfolio-images {
     grid-template-columns: repeat(5, 1fr);
-    width: 80vw;
-    margin-right: 60px;
+    width: 60vw;
+    margin-bottom: 20px;
   }
   .portfolio-images img {
     max-width: 100%;
     height: auto;
   }
   .process-section {
-    width: 100vw;
-
+    width: 78vw;
     margin: 0;
     align-items: center;
   }
   .process {
-    padding: 4px;
-    
+    width: 65vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2px;
+    margin-left: 20px;
+    line-height: 10px;
   }
 
   .process-section h2 {
     font-size: 20px;
   }
 
-  .process-section h2 span {
-    color: #71a12e;
-  }
-
   .process-section p {
     font-size: 10px;
     text-align: center;
+    margin-bottom: 40px;
   }
 
   .line {
@@ -1146,7 +1154,7 @@ nav a:hover {
     flex-direction: column;
   }
   .people-section {
-    width: 100vw;
+    width: 78vw;
     height: auto;
     padding: 0 10px;
   }
@@ -1180,7 +1188,7 @@ nav a:hover {
     margin-right: 20px;
   }
   .skills-section {
-    width: 100vw;
+    width: 78vw;
     height: auto;
     padding: 8px;
   }
@@ -1196,7 +1204,7 @@ nav a:hover {
   }
 
   .skills {
-    width: 80vw;
+    width: 60vw;
     margin: 0;
   }
 
@@ -1205,8 +1213,8 @@ nav a:hover {
   }
 
   .circle {
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
     align-items: center;
     font-size: 1.8rem;
   }
@@ -1215,7 +1223,7 @@ nav a:hover {
     margin-top: 5px;
   }
   .project-section {
-    width: 100vw;
+    width: 77vw;
     padding: 0 10px;
   }
 
@@ -1226,31 +1234,36 @@ nav a:hover {
     font-size: 14px;
   }
   .contact-form {
-  
-    left: 28px;
-    width: 90vw;
+    left: 25px;
+    gap: 2px;
+    width: 60vw;
   }
+
+  .contact-form input,
+  .contact-form button {
+    padding: 14px;
+  }
+
   .contact-form button {
     margin-left: 2px;
   }
 
   .contact-section {
-    width: 100vw;
+    width: 77vw;
     height: auto;
     padding: 0 10px;
     left: 0px;
   }
 
   .contacts-section p {
-    font-size: 1.8rem;
+    font-size: 1rem;
     align-items: center;
     padding: 10px;
     margin-right: 10px;
   }
 
   .contact {
-    
-    gap: 2px;
+    gap: 0px;
   }
 
   .contact p {
@@ -1259,28 +1272,29 @@ nav a:hover {
   }
 
   .map {
-    width: 85vw;
+    width: 65vw;
     object-fit: contain;
     height: auto;
 
     overflow: hidden;
     margin-bottom: 20px;
-    margin-left: 40px;
+    margin-left: 5px;
   }
   .footer-section {
-    width: 100vw;
+    width: 78vw;
     height: auto;
-   
   }
 
   .footer-container {
-    width: auto;
+    width: 70vw;
     margin: 0 auto;
-  
   }
-
+  .footer img {
+    width: 130px;
+    height: 100px;
+  }
   .footer h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .footer p {
@@ -1288,7 +1302,7 @@ nav a:hover {
   }
 
   .footer h3 {
-    font-size: 26px;
+    font-size: 20px;
   }
 
   .social-icons {
@@ -1298,13 +1312,6 @@ nav a:hover {
   }
 
   .social-icon {
-    width: 20px;
-    height: 20px;
-    background-color: #fcfbfb;
-    color: #71a12e;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
     padding: 2px;
     margin: 2px;
   }
@@ -1314,22 +1321,28 @@ nav a:hover {
   * {
     box-sizing: border-box;
   }
+ 
+
   header {
-    width: 100vw;
+    
+    width: 81vw;
     height: auto;
+    
   }
   .top-bar {
+  width: 70vw;
     height: auto;
   }
   .icons {
     display: inline-flex;
-    justify-content: center;
+ 
   }
 
   .contact-info {
-    width: auto;
-    text-align: center;
    
+    width: 35vw;
+    padding:0 ;
+    margin: 0px;
   }
   .call-now {
     margin-right: 20px;
@@ -1346,22 +1359,27 @@ nav a:hover {
   .menu-button {
     display: block;
     padding: 6px;
+    position:relative;
+    left: 340px;
   }
   .slidebar {
-    width: 20vw;
+    width: 22vw;
     height: 40vh;
-    left: 190px;
+  top: 60px;
+    left: 600px;
   }
 
   nav {
+ 
     width: 100vw;
   }
   nav ul {
     width: 20vw;
+
   }
   .hero-main {
     width: 100vw;
-    /* padding: 0 10px; */
+    padding: 0 10px;
   }
 
   .hero button {
@@ -1425,7 +1443,7 @@ nav a:hover {
   .service {
     width: 100vw;
     padding: 10px;
-    height: 50vh;
+    height: 60vh;
     align-items: center;
   }
 
@@ -1443,15 +1461,12 @@ nav a:hover {
     left: 10px;
   }
   .services-container {
-   
     align-items: center;
     gap: 10px;
     width: 90vw;
     height: auto;
     position: relative;
     left: 10px;
-
-    
   }
   .service-card {
     width: 180px;
@@ -1593,8 +1608,10 @@ nav a:hover {
   }
 
   .skills {
-    width: 46vw;
-    margin: 30px;
+    width: 58vw;
+    margin: 10px;
+  
+
   }
 
   .skill {
@@ -1657,7 +1674,6 @@ nav a:hover {
   }
 
   .contact {
- 
     gap: 2px;
   }
 
@@ -1678,15 +1694,14 @@ nav a:hover {
   .footer-section {
     width: 100%;
     height: auto;
-    
   }
 
   .footer-container {
     width: auto;
-   
   }
   .footer img {
     width: 100px;
+    height: 80px;
   }
 
   .footer h2 {
@@ -1727,14 +1742,17 @@ nav a:hover {
   header {
     width: 100vw;
     height: auto;
+    
   }
   .top-bar {
+    
+    margin-top: 10px;
     height: auto;
     flex-direction: column;
   }
   .icons {
     display: inline-flex;
-    justify-content: center;
+    
   }
 
   .contact-info {
@@ -1756,6 +1774,8 @@ nav a:hover {
   }
   .menu-button {
     display: block;
+    position: relative;
+    left: 220px;
   }
   .slidebar {
     width: 40vw;
@@ -1764,6 +1784,8 @@ nav a:hover {
   }
 
   nav {
+ 
+
     width: 100vw;
   }
   nav ul {
@@ -1776,7 +1798,7 @@ nav a:hover {
 
   .hero button {
     position: relative;
-    left: 20px;
+    left: 50px;
   }
   .pagination-dots {
     gap: 0px;
@@ -1795,6 +1817,7 @@ nav a:hover {
   .icons-container {
     width: 90vw;
     height: auto;
+    
     margin-left: 35px;
   }
   .about-container {
@@ -2077,7 +2100,6 @@ nav a:hover {
   .footer-container {
     width: auto;
     margin: 0 auto;
-   
   }
 
   .footer h2 {
@@ -2144,7 +2166,7 @@ nav a:hover {
   .slidebar {
     width: 40vw;
     height: 40vh;
-    left: 150px;
+    left: 285px;
   }
   nav {
     width: 100vw;
@@ -2154,7 +2176,6 @@ nav a:hover {
   }
   .hero-main {
     width: 100vw;
-   
   }
   .hero button {
     left: 10px;
@@ -2181,7 +2202,6 @@ nav a:hover {
   }
 
   .icons-container {
- 
     width: 70vw;
     height: auto;
     margin: 2px;
@@ -2222,32 +2242,35 @@ nav a:hover {
     margin-bottom: 20px;
   }
   .service {
+    background-color: #f0b4b4;
     width: 100vw;
     padding: 0 10px;
-    height: auto;
+    height: 90vh;
     align-items: center;
   }
 
   .service h1 {
-    font-size: 1.2rem;
-    text-align: center;
-    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  .service .para {
+    width: 450px;
+    left: 0px;
   }
   .service span {
     color: #71a12e;
   }
 
   .services-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+  
+    gap: 6px;
     width: 80vw;
-    height: auto;
+  
     position: relative;
-    left: 0;
-    margin: 70px;
-    padding: 12px;
-    overflow: hidden;
+    left: 8px;
+    margin: 4px;
+    padding: 8px;
+   
   }
   .service-card {
     width: 160px;
@@ -2257,7 +2280,7 @@ nav a:hover {
     margin: 0;
   }
   .service-card .circle {
-    left: 30px;
+    left: 40px;
   }
   .service-title {
     font-size: 1em;
